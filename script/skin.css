@@ -1,6 +1,8 @@
-.edit .stick {
-    position: absolute;
-    background: url(http://i.imgur.com/LpLOf3G.png);
-    height: 86px;
-    width: 86px;
+@keyframes colorhue{
+    from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
+    to {-webkit-filter: hue-rotate(359deg); filter: hue-rotate(359deg);}
+}
+
+.edit {
+    animation: colorhue 1s linear infinite;
 }
