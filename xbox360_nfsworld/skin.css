@@ -43,8 +43,8 @@
     position: absolute;
     width: 300px;
     height: 0px;
-    left: 100px;
-    top: 50px;
+    left: 190px;
+    top: 150px;
 }
 
 .xbox-old .bumper {
@@ -136,10 +136,10 @@
 
 .xbox-old .abxy {
     position: absolute;
-    width: 161px;
+    width: 160px;
     height: 160px;
-    top: 175px;
-    left: 421px
+    top: 203px;
+    left: 365px
 }
 
 .xbox-old .button {
@@ -214,11 +214,12 @@
 }
 
 .xbox-old .stick.left {
-    top: 0;
-    left: 0;
+    top: 75px;
+    left: 115px;
 }
 
 .xbox-old .stick.right {
+    background: none;
     top: calc(100% - 86px);
     left: calc(100% - 86px);
 }
