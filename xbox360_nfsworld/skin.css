@@ -144,54 +144,54 @@
 
 .xbox-old .button {
     position: absolute;
-    width: 54px;
-    height: 54px;
+    width: 55px;
+    height: 55px;
 }
 
 .xbox-old .button.a {
-    width: 53px;
-    height: 53px;
+    width: 55px;
+    height: 55px;
 }
 
 .xbox-old .button.y {
     width: 55px;
-    height: 54px;
+    height: 55px;
 }
 
 .xbox-old .button.pressed {
     background-position: 0 -55px;
-    margin-top: 6px;
+    margin-top: 0px;
     opacity: 1;
 }
 
 .xbox-old .button.pressed.a {
-    background-position: 0 -54px;
+    background-position: 0 -55px;
 }
 
 .xbox-old .button.pressed.y {
-    background-position: 0 -56px;
+    background-position: 0 -55px;
 }
 
 .xbox-old .a {
     background: url(a.png);
-    top: 108px;
+    top: 110px;
     left: 55px;
 }
 
 .xbox-old .b {
     background: url(b.png);
-    top: 54px;
+    top: 55px;
     right: 0px;
 }
 
 .xbox-old .x {
     background: url(x.png);
-    top: 54px;
+    top: 55px;
 }
 
 .xbox-old .y {
     background: url(y.png);
-    left: 54px;
+    left: 55px;
 }
 
 .xbox-old .sticks {
