@@ -39,13 +39,6 @@
     background-position: 0 -77px;
 }
 
-.xbox-old .bumper {
-    width: 124px;
-    height: 26px;
-    background: url(bumper.png);
-    opacity: 1;
-}
-
 .xbox-old .bumpers {
     position: absolute;
     width: 516px;
@@ -54,18 +47,27 @@
     top: 84px;
 }
 
-.xbox-old .bumper.pressed {
+.xbox-old .bumper {
+    width: 124px;
+    height: 26px;
+    background: url(bumper.png);
     opacity: 1;
-    background-position-y: -52px;
 }
 
-.xbox-old .bumper.left {
-    float: left;
+.xbox-old .bumper.pressed {
+    opacity: 1;
+    background: url(bumper.png);
+}
+
+.xbox-old .bumper.left.pressed {
+    background-position: 0 -52px;
+}
+
+.xbox-old .bumper.right.pressed {
+    background-position: 0 -78px;
 }
 
 .xbox-old .bumper.right {
-    float: right;
-    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
     background-position: 0 -26px;
 }
