@@ -41,9 +41,9 @@
 
 .xbox-old .bumpers {
     position: absolute;
-    width: 300px;
+    width: 305px;
     height: 0px;
-    left: 190px;
+    left: 185px;
     top: 150px;
 }
 
@@ -138,8 +138,8 @@
     position: absolute;
     width: 160px;
     height: 160px;
-    top: 203px;
-    left: 365px
+    top: 201px;
+    left: 345px
 }
 
 .xbox-old .button {
