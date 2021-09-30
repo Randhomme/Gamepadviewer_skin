@@ -16,17 +16,17 @@
 }
 
 .xbox-old .triggers {
-    width: 430px;
+    width: 213px;
     height: 76px;
     position: absolute;
-    left: 119px;
+    left: 232px;
+    top: 44px;
 }
 
 .xbox-old .trigger {
     width: 33px;
     height: 76px;
     background: url(trigger.png);
-    opacity: 0;
 }
 
 .xbox-old .trigger.left {
