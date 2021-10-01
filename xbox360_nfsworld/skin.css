@@ -8,11 +8,11 @@
 }
 
 .xbox-old.disconnected {
-    background: url(https://gamepadviewer.com/xbox-assets-old/bg-disconnect.png);
+    background: url(bg.png);
 }
 
 .xbox-old.disconnected div {
-    display: none;
+    display: revert;
 }
 
 .xbox-old .triggers {
