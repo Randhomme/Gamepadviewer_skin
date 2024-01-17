@@ -135,8 +135,6 @@
 
 .custom .abxy {
     position: absolute;
-    width: 160px;
-    height: 160px;
     top: 201px;
     left: 345px
 }
@@ -162,7 +160,7 @@
 .custom .b {
     background: url(b.png);
     top: 55px;
-    right: 0px;
+    left: 110px;
 }
 
 .custom .x {
