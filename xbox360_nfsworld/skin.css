@@ -1,19 +1,19 @@
 /*BEGIN Xbox 360 Controller Styling*/
-.controller.xbox-old {
+.controller.custom {
     background: url(bg.png);
     height: 544px;
     width: 668px;
 }
 
-.xbox-old.disconnected {
+.custom.disconnected {
     background: url(bg.png);
 }
 
-.xbox-old.disconnected div {
+.custom.disconnected div {
     display: revert;
 }
 
-.xbox-old .triggers {
+.custom .triggers {
     width: 213px;
     height: 76px;
     position: absolute;
@@ -21,23 +21,23 @@
     top: 44px;
 }
 
-.xbox-old .trigger {
+.custom .trigger {
     width: 33px;
     height: 76px;
     background: url(trigger.png);
 }
 
-.xbox-old .trigger.left {
+.custom .trigger.left {
     float: left;
     background-position: 0 0;
 }
 
-.xbox-old .trigger.right {
+.custom .trigger.right {
     float: right;
     background-position: 0 -77px;
 }
 
-.xbox-old .bumpers {
+.custom .bumpers {
     position: absolute;
     width: 305px;
     height: 0px;
@@ -45,36 +45,36 @@
     top: 150px;
 }
 
-.xbox-old .bumper {
+.custom .bumper {
     width: 124px;
     height: 26px;
     background: url(bumper.png);
     opacity: 1;
 }
 
-.xbox-old .bumper.pressed {
+.custom .bumper.pressed {
     opacity: 1;
     background: url(bumper.png);
 }
 
-.xbox-old .bumper.left.pressed {
+.custom .bumper.left.pressed {
     background-position: 0 -52px;
 }
 
-.xbox-old .bumper.right.pressed {
+.custom .bumper.right.pressed {
     background-position: 0 -78px;
 }
 
-.xbox-old .bumper.left {
+.custom .bumper.left {
     float: left;
 }
 
-.xbox-old .bumper.right {
+.custom .bumper.right {
     transform: rotateY(0deg);
     background-position: 0 -26px;
 }
 
-.xbox-old .quadrant {
+.custom .quadrant {
     position: absolute;
     background: url(quadrant.png);
     height: 100px;
@@ -84,27 +84,27 @@
     z-index: -1;
 }
 
-.xbox-old .p0 {
+.custom .p0 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
-.xbox-old .p1 {
+.custom .p1 {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.xbox-old .p2 {
+.custom .p2 {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
-.xbox-old .p3 {
+.custom .p3 {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
-.xbox-old .arrows {
+.custom .arrows {
     position: absolute;
     width: 180px;
     height: 29px;
@@ -112,27 +112,27 @@
     left: 244px;
 }
 
-.xbox-old .back, .xbox-old .start {
+.custom .back, .custom .start {
     background: url(arrow.png);
     width: 34px;
     height: 29px;
 }
 
-.xbox-old .back.pressed, .xbox-old .start.pressed {
+.custom .back.pressed, .custom .start.pressed {
     background-position: 0 -30px;
 }
 
-.xbox-old .back {
+.custom .back {
     float: left;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.xbox-old .start {
+.custom .start {
     float: right;
 }
 
-.xbox-old .abxy {
+.custom .abxy {
     position: absolute;
     width: 160px;
     height: 160px;
@@ -140,59 +140,59 @@
     left: 345px
 }
 
-.xbox-old .button {
+.custom .button {
     position: absolute;
     width: 55px;
     height: 55px;
 }
 
-.xbox-old .button.a {
+.custom .button.a {
     width: 55px;
     height: 55px;
 }
 
-.xbox-old .button.y {
+.custom .button.y {
     width: 55px;
     height: 55px;
 }
 
-.xbox-old .button.pressed {
+.custom .button.pressed {
     background-position: 0 -55px;
     margin-top: 0px;
     opacity: 1;
 }
 
-.xbox-old .button.pressed.a {
+.custom .button.pressed.a {
     background-position: 0 -55px;
 }
 
-.xbox-old .button.pressed.y {
+.custom .button.pressed.y {
     background-position: 0 -55px;
 }
 
-.xbox-old .a {
+.custom .a {
     background: url(a.png);
     top: 110px;
     left: 55px;
 }
 
-.xbox-old .b {
+.custom .b {
     background: url(b.png);
     top: 55px;
     right: 0px;
 }
 
-.xbox-old .x {
+.custom .x {
     background: url(x.png);
     top: 55px;
 }
 
-.xbox-old .y {
+.custom .y {
     background: url(y.png);
     left: 55px;
 }
 
-.xbox-old .sticks {
+.custom .sticks {
     position: absolute;
     width: 383px;
     height: 208px;
@@ -200,29 +200,29 @@
     left: 89px;
 }
 
-.xbox-old .stick {
+.custom .stick {
     position: absolute;
     background: url(stick.png);
     height: 21px;
     width: 21px;
 }
 
-.xbox-old .stick.pressed {
+.custom .stick.pressed {
     background-position: 0 -21px;
 }
 
-.xbox-old .stick.left {
+.custom .stick.left {
     top: 106px;
     left: 147px;
 }
 
-.xbox-old .stick.right {
+.custom .stick.right {
     background: none;
     top: calc(100% - 86px);
     left: calc(100% - 86px);
 }
 
-.xbox-old .dpad {
+.custom .dpad {
     position: absolute;
     width: 112px;
     height: 112px;
@@ -230,7 +230,7 @@
     left: 174px;
 }
 
-.xbox-old .face {
+.custom .face {
     position: absolute;
     font-size: 30px;
     line-height: 0;
@@ -239,47 +239,47 @@
     font-family: 'FontAwesome';
 }
 
-.xbox-old .face.pressed {
+.custom .face.pressed {
     opacity: 1;
 }
 
-.xbox-old .face.up {
+.custom .face.up {
     left: 42px;
     top: 20px;
 }
 
-.xbox-old .face.up:after {
+.custom .face.up:after {
     content: "\f062";
 }
 
-.xbox-old .face.down {
+.custom .face.down {
     left: 42px;
     bottom: 20px;
 }
 
-.xbox-old .face.down:after {
+.custom .face.down:after {
     content: "\f063";
 }
 
-.xbox-old .face.left {
+.custom .face.left {
     top: 56px;
     left: 3px;
 }
 
-.xbox-old .face.left:after {
+.custom .face.left:after {
     content: "\f060";
 }
 
-.xbox-old .face.right {
+.custom .face.right {
     top: 56px;
     right: 3px;
 }
 
-.xbox-old .face.right:after {
+.custom .face.right:after {
     content: "\f061";
 }
 
-.xbox-old.half {
+.custom.half {
     margin-top: -272px;
 }
 
