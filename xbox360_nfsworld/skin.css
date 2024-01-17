@@ -70,6 +70,7 @@
 }
 
 .custom .bumper.right {
+    float: right;
     transform: rotateY(0deg);
     background-position: 0 -26px;
 }
