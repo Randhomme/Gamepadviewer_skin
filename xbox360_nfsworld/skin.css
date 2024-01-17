@@ -147,28 +147,10 @@
     height: 55px;
 }
 
-.custom .button.a {
-    width: 55px;
-    height: 55px;
-}
-
-.custom .button.y {
-    width: 55px;
-    height: 55px;
-}
-
 .custom .button.pressed {
     background-position: 0 -55px;
     margin-top: 0px;
     opacity: 1;
-}
-
-.custom .button.pressed.a {
-    background-position: 0 -55px;
-}
-
-.custom .button.pressed.y {
-    background-position: 0 -55px;
 }
 
 .custom .a {
